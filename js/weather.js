@@ -32,7 +32,7 @@ function displayResults(weatherData) {
     } else if (weatherData.weather[0].main == 'Snow') {
         iconsrc = "../temple/images/snow.png";
     } else if (weatherData.weather[0].main == 'Clouds') {
-        iconsrc = "/temple/images/clouds.png";
+        iconsrc = "../temple/images/clouds.png";
     } else {
         iconsrc = "../temple/images/weather.png";
     }
