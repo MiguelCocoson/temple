@@ -22,19 +22,19 @@ function displayResults(weatherData) {
     let iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
 
     if (weatherData.weather[0].main == 'Clear') {
-        iconsrc = "/images/clear.png";
+        iconsrc = "../temple/images/clear.png";
     } else if (weatherData.weather[0].main == 'Thunderstorm') {
-        iconsrc = "/images/thunderstorm.png";
+        iconsrc = "../temple/images/thunderstorm.png";
     } else if (weatherData.weather[0].main == 'Drizzle') {
-        iconsrc = "/images/drizzle.png";
+        iconsrc = "../temple/images/drizzle.png";
     } else if (weatherData.weather[0].main == 'Rain') {
-        iconsrc = "/images/rain.png";
+        iconsrc = "../temple/images/rain.png";
     } else if (weatherData.weather[0].main == 'Snow') {
-        iconsrc = "/images/snow.png";
+        iconsrc = "../temple/images/snow.png";
     } else if (weatherData.weather[0].main == 'Clouds') {
-        iconsrc = "/images/clouds.png";
+        iconsrc = "../temple/images/clouds.png";
     } else {
-        iconsrc = "/images/weather.png";
+        iconsrc = "../temple/images/weather.png";
     }
 
     const desc = weatherData.weather[0].description;
