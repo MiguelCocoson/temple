@@ -11,9 +11,9 @@
       <link rel="stylesheet" href="/temple/css/large.css" />
    </head>
    <body>
+      <p id="alert"></p>
       <header>
-         <p id="banner"></p>
-         <a href="index.html"><img id="logo" src="../images/logo.png" alt="Temple Inn & Suite Logo."></a>
+         <a href="index.html" id="logo"><img src="../temple/images/logo.png" alt="Temple Inn & Suite Logo."></a>
          <h1>Temple Inn & Suite</h1>
          <h2>Home</h2>
          <nav>
@@ -21,53 +21,72 @@
             <ul id="primaryNav">
                <li><a href="index.html">Home</a></li>
                <li><a href="reservation.html">Reservation</a></li>
-               <li><a href="services.html">Services</a></li>
+               <li><a id="current" href="services.html">Services</a></li>
                <li><a href="temple.html">Temple</a></li>
             </ul>
          </nav>
-         <a target="_blank" href="https://www.youtube.com"><img id="youtube" src="../images/youtube.png" alt="Temple Inn & Suite Logo."></a>
-         <a target="_blank" href="https://www.facebook.com"><img id="facebook" src="../images/facebook.ico" alt="Temple Inn & Suite Logo."></a>
+         <a target="_blank" href="https://www.youtube.com" id="youtube"><img src="../temple/images/youtube.png" alt="Temple Inn & Suite Logo."></a>
+         <a target="_blank" href="https://www.facebook.com" id="facebook"><img src="../temple/images/facebook.ico" alt="Temple Inn & Suite Logo."></a>
       </header>
       <main>
-         <div class="reservation">
-            <h1>Make your reservation today!</h1>
-            <a href="reservation.html">SEARCH</a>
+         <div class="amenities">
+            <h1>Amenities</h1>
+               <ol>
+                  <li>Breakfast</li>
+                  <li>Exercise/workout room</li>
+                  <li>Indoor pool</li>
+                  <li>WiFi high-speed internet access and smart TVs</li>
+                  <li>Parking</li>
+                  <li>Temple shuttle</li>
+                  <li>Family history consultation and family ordinance card service</li>
+               </ol> 
          </div>
-         <div class="contact">
-            <h1>Contact Information</h1>
-            <p>Open Hours: 9:00am - 8:00pm</p>
-            <p>Telephone: (385)400-3487</p>
-            <p>E-mail: templeinn@gmail.com</p>
+         <div class="special-services">
+            <h1>Special Services</h1>
+            <ol>
+               <li>Free access to changing rooms and bathroom facilities for temple patrons who have traveled far and need to change to and from church clothes</li>
+               <li>A playroom and low-cost, short-term babysitting services for the children of patrons</li>
+               <li>Long-term stay accommodations in kitchenette suites for full-time temple missionaries</li>
+               <li>Temple history themed reception and sitting area</li>
+               <li>A wedding reception hall that can be easily customized with a simple catering menu and kitchen access for food preparation and serving</li>
+               <li>A family search center that supports family search and ordinance work</li>
+               <li>What other ideas do you have?</li>
+            </ol>
          </div>
-         <div class="temple">
-            <h1>Salt Lake City Temple</h1>
-            <p>Address: 50 W North Temple St Salt Lake City UT 84150-9709 United States</p>
-            <p>Announced: 28 July 1847</p>
-            <p>Groundbreaking: 14 February 1853</p>
-            <p>Dedicated: 6 April 1893</p>
+         <div class="receptions">
+            <h1>Receptions</h1>
          </div>
          <div class="weather">
-            <h1>Weather</h1>
-            <img src="" alt="" id="weather-icon" />
-            <h2>Salt Lake City</h2>
-            <h2 id="condition"></h2>
-            <h2>Temperature is: <span id="current-temp"></span> &deg;F</h2>
-            <h2 id="humidity"></h2>
+            <h1>Full-time Temple Missionary</h1>
+            
          </div>
-         <div class="forcast">
-            <h1>Forecast</h1>
-            <h2 id="tomorrow"></h2>
-            <h2 id="secondday"></h2>
-            <h2 id="thirdday"></h2>
+         <div class="contact">
+            <h1>Contact Us</h1>
+            <label>Name* <input type="text" name="name" required></label><br>
+            <label>Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label><br>
+            <label>Phone* <input type="tel" name="phone" placeholder="1235551234" required></label><br>
+            <label>Comments/Questions<br><textarea type="text" name="description"></textarea></label><br>
+            <button>SUBMIT</button>
          </div>
       </main>
       <footer>
          <h2>4847 Montgomery Ln #300, Bethesda, MD 20814</h2>
          <a target="_blank" href="https://www.google.com/maps/place/4847+Montgomery+Ln+%23300,+Bethesda,+MD+20814/@38.9836081,-77.0984767,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97c9e17b369:0xdf03f7c3c0ffb174!8m2!3d38.9836081!4d-77.096288?hl=en">📍 Location Map</a><br>
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.3894111367213!2d-77.09847668439903!3d38.98360807955746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97c9e17b369%3A0xdf03f7c3c0ffb174!2s4847%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1658444272771!5m2!1sen!2sus" width="200" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.3894111367213!2d-77.09847668439903!3d38.98360807955746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97c9e17b369%3A0xdf03f7c3c0ffb174!2s4847%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1658444272771!5m2!1sen!2sus" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         <div>
+            <h1>Contact Us</h1>
+            <label>Name* <input type="text" name="name" required></label><br>
+            <label>Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label><br>
+            <label>Phone* <input type="tel" name="phone" placeholder="1235551234" required></label><br>
+            <label>Comments/Questions<br><textarea type="text" name="description"></textarea></label><br>
+            <button>SUBMIT</button>
+         </div>
          <p class="date">&copy;<span id="year"></span> Temple Inn & Suite | Miguel Marin | WDD230 | Last Modification: <span id="lastmodified"></span></p>
+         <a target="_blank" href="https://www.youtube.com" id="youtube"><img src="../temple/images/youtube.png" alt="Temple Inn & Suite Logo."></a>
+         <a target="_blank" href="https://www.facebook.com" id="facebook"><img src="../temple/images/facebook.ico" alt="Temple Inn & Suite Logo."></a>
       </footer>
-      <script src="../js/weather.js"></script>
-      <script src="../js/footer.js"></script>
+      <script src="../temple/js/header.js"></script>
+      <script src="../temple/js/weather.js"></script>
+      <script src="../temple/js/footer.js"></script>
    </body>
 </html>

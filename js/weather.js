@@ -45,6 +45,5 @@ function displayResults(weatherData) {
     let temperature = weatherData.main.temp.toFixed(1);
     let humidity = weatherData.main.humidity;
 
-
     document.querySelector('#humidity').innerHTML = 'Humidity is: ' + humidity + '%';
 }
