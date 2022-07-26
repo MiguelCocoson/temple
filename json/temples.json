@@ -1,48 +1,108 @@
 {
     "temples": [
       {
+        "key": "payson",
         "name": "Payson Utah Temple",
         "address": "1494 S 930 W Payson UT 84651 United States",
         "phone": "(1) 801-754-4949",
         "email": "PAYSO-OFF@churchofjesuschrist.org",
-        "services": "https://cbsnews1.cbsistatic.com/i/cbslocal/wp-content/uploads/sites/15909806/2022/05/Los-Dos-Potrillos-4.jpg?w=310&h=174&crop=1",
-        "history": "gold",
-        "oschedule": "",
-        "sschedule": "",
-        "cschedule": "",
-        "image": ""
+        "services":
+            ["Clothing rental available",
+            "No cafeteria available",
+            "No patron housing available",
+            "Distribution center nearby"],
+        "history":
+            {"Announced": "25 January 2010",
+            "Groundbreaking": "8 October 2011",
+            "Dedicated": "7 June 2015"},
+        "cschedule":
+            ["Monday, 27 March 2023 - Monday, 10 April 2023",
+            "Tuesday, 4 July 2023",
+            "Saturday, 30 September 2023",
+            "Monday, 9 October 2023 - Monday, 23 October 2023",
+            "Wednesday, 22 November 2023 (Limited Operations)",
+            "Thursday, 23 November 2023",
+            "Saturday, 23 December 2023 (Limited Operations)",
+            "Saturday, 30 December 2023 (Limited Operations)"],
+        "image": "https://assets.ldscdn.org/c8/b5/c8b5e860a7edbbef90734c83be366e8d359d2c0b/payson_utah_temple.jpg"
       },
       {
-        "name": "Cinemark",
-        "address": "595 Commerce Way, Spanish Fork, UT 84660",
-        "phone": "(801) 798-6977",
-        "website": "cinemark.com",
-        "image": "https://utahvalley360.com/wp-content/uploads/2017/12/Cinemark-Spanish-Fork.jpg",
-        "membership": "gold"
+        "key": "saltlake",
+        "name": "Payson Utah Temple",
+        "address": "1494 S 930 W Payson UT 84651 United States",
+        "phone": "(1) 801-754-4949",
+        "email": "PAYSO-OFF@churchofjesuschrist.org",
+        "services":
+            ["Clothing rental available",
+            "No cafeteria available",
+            "No patron housing available",
+            "Distribution center nearby"],
+        "history":
+            {"Announced": "25 January 2010",
+            "Groundbreaking": "8 October 2011",
+            "Dedicated": "7 June 2015"},
+        "cschedule":
+            ["Monday, 27 March 2023 - Monday, 10 April 2023",
+            "Tuesday, 4 July 2023",
+            "Saturday, 30 September 2023",
+            "Monday, 9 October 2023 - Monday, 23 October 2023",
+            "Wednesday, 22 November 2023 (Limited Operations)",
+            "Thursday, 23 November 2023",
+            "Saturday, 23 December 2023 (Limited Operations)",
+            "Saturday, 30 December 2023 (Limited Operations)"],
+        "image": "https://assets.ldscdn.org/c8/b5/c8b5e860a7edbbef90734c83be366e8d359d2c0b/payson_utah_temple.jpg"
       },
       {
-        "name": "The Oaks",
-        "address": "2300 E Powerhouse Rd, Spanish Fork, UT 84660",
-        "phone": "(801) 804-4653",
-        "website": "theoaksatsf.com",
-        "image": "https://assets.simpleviewinc.com/simpleview/image/fetch/c_limit,q_75,w_1200/https://assets.simpleviewinc.com/simpleview/image/upload/crm/utahvalley/HOLE-12-Spanish-Oaks-12.25x22-1--2b0698d25056a36_2b069a49-5056-a36a-0b0381e2279c5f59.jpg",
-        "membership": "silver"
+        "key": "provocenter",
+        "name": "Payson Utah Temple",
+        "address": "1494 S 930 W Payson UT 84651 United States",
+        "phone": "(1) 801-754-4949",
+        "email": "PAYSO-OFF@churchofjesuschrist.org",
+        "services":
+            ["Clothing rental available",
+            "No cafeteria available",
+            "No patron housing available",
+            "Distribution center nearby"],
+        "history":
+            {"Announced": "25 January 2010",
+            "Groundbreaking": "8 October 2011",
+            "Dedicated": "7 June 2015"},
+        "cschedule":
+            ["Monday, 27 March 2023 - Monday, 10 April 2023",
+            "Tuesday, 4 July 2023",
+            "Saturday, 30 September 2023",
+            "Monday, 9 October 2023 - Monday, 23 October 2023",
+            "Wednesday, 22 November 2023 (Limited Operations)",
+            "Thursday, 23 November 2023",
+            "Saturday, 23 December 2023 (Limited Operations)",
+            "Saturday, 30 December 2023 (Limited Operations)"],
+        "image": "https://assets.ldscdn.org/c8/b5/c8b5e860a7edbbef90734c83be366e8d359d2c0b/payson_utah_temple.jpg"
       },
       {
-        "name": "Hampton Inn",
-        "address": "462 Commerce Way, Spanish Fork, UT 84660",
-        "phone": "(385) 248-0550",
-        "website": "hampton.com",
-        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/7a/99/a2/exterior.jpg?w=900&h=-1&s=1",
-        "membership": "bronze"
-      },
-      {
-        "name": "Doc Brundy's",
-        "address": "260 N Main St, Spanish Fork, UT 84660",
-        "phone": "(801) 999-1289",
-        "website": "docbrundys.com",
-        "image": "https://media-cdn.tripadvisor.com/media/photo-s/19/60/c6/5c/comfortable-seating.jpg",
-        "membership": "silver"
+        "key": "vegas",
+        "name": "Payson Utah Temple",
+        "address": "1494 S 930 W Payson UT 84651 United States",
+        "phone": "(1) 801-754-4949",
+        "email": "PAYSO-OFF@churchofjesuschrist.org",
+        "services":
+            ["Clothing rental available",
+            "No cafeteria available",
+            "No patron housing available",
+            "Distribution center nearby"],
+        "history":
+            {"Announced": "25 January 2010",
+            "Groundbreaking": "8 October 2011",
+            "Dedicated": "7 June 2015"},
+        "cschedule":
+            ["Monday, 27 March 2023 - Monday, 10 April 2023",
+            "Tuesday, 4 July 2023",
+            "Saturday, 30 September 2023",
+            "Monday, 9 October 2023 - Monday, 23 October 2023",
+            "Wednesday, 22 November 2023 (Limited Operations)",
+            "Thursday, 23 November 2023",
+            "Saturday, 23 December 2023 (Limited Operations)",
+            "Saturday, 30 December 2023 (Limited Operations)"],
+        "image": "https://assets.ldscdn.org/c8/b5/c8b5e860a7edbbef90734c83be366e8d359d2c0b/payson_utah_temple.jpg"
       }
     ]
   }
