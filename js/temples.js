@@ -21,7 +21,7 @@ function buildTemplesCards(data) {
         let numLikes = Number(window.localStorage.getItem(`${temple.key}likes`));
 	
 		h2.innerHTML = `${temple.name}`;
-		p.innerHTML = `Address: ${temple.address}<br>Phone Number: ${temple.phone}<br>Website: ${temple.website}<br>This Temple have been liked ${numLikes} times`;
+		p.innerHTML = `Address: ${temple.address}<br>Phone Number: ${temple.phone}<br>Email: ${temple.email}<br>This Temple have been liked ${numLikes} times`;
         button.innerHTML = 'Like this Temple';
         button.setAttribute('id', `${temple.key}likes`);
 		img.setAttribute('src', temple.image);
